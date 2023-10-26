@@ -1,6 +1,12 @@
-let numero = parseInt(prompt('ingrese un numero'));
-if(numero %2 == 0){
-    document.write(`El numero ${numero} es divisible por 2`)
-} else {
-    document.write(`El numero ${numero} NO es divisible por 2`)
+let frase = prompt('Ingrese una frase');
+let i = 0;
+//hola mundo
+
+//escribe un programa
+//pregunto si el primer caracter es alguna vocal
+while(i < frase.length){
+   if (frase.charAt(i) === 'a' || frase.charAt(i) === 'e' || frase.charAt(i) === 'i' || frase.charAt(i) === 'o' || frase.charAt(i) === 'u'){
+    document.write(frase.charAt(i));
+   }    
+   i++;
 }
